@@ -138,7 +138,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/table-library/react-table-library.git"
+    "url": "https://github.com/lokeshjain2008/react-table-library.git"
+  },
+  "release": {
+    "repositoryUrl": "https://github.com/lokeshjain2008/react-table-library.git"
   },
   "keywords": [
     "react",
@@ -152,7 +155,7 @@
     "react-datatable",
     "react-table-library"
   ],
-  "author": "Robin Wieruch <hello@rwieruch.com> (https://www.robinwieruch.de)",
+  "author": "Lokesh Kumar Jain <lokeshjain2008@gmail.com> (https://medium.com/@lokeshjain2008)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/table-library/react-table-library/issues"
