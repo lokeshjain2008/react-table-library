@@ -141,7 +141,20 @@
     "url": "https://github.com/lokeshjain2008/react-table-library.git"
   },
   "release": {
-    "repositoryUrl": "https://github.com/lokeshjain2008/react-table-library.git"
+    "repositoryUrl": "https://github.com/lokeshjain2008/react-table-library.git",
+    "branches": ["master"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/github",
+        {
+          "successComment": false,
+          "failComment": false
+        }
+      ]
+    ]
   },
   "keywords": [
     "react",
