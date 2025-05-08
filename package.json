@@ -1,7 +1,7 @@
 {
   "name": "@appkitreact/react-table-library",
   "version": "0.0.0-development",
-  "description": "fork of react-table-library to support react 18",
+  "description": "fork of react-table-library to support react 18 version",
   "private": false,
   "type": "module",
   "main": "main.js",
@@ -156,7 +156,8 @@
     "react-data-grid",
     "react-data-table",
     "react-datatable",
-    "react-table-library"
+    "react-table-library",
+    "react-table-react18"
   ],
   "author": "Lokesh Kumar Jain <lokeshjain2008@gmail.com> (https://medium.com/@lokeshjain2008)",
   "license": "MIT",
