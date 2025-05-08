@@ -144,7 +144,29 @@
   },
   "release": {
     "repositoryUrl": "https://github.com/lokeshjain2008/react-table-library.git",
-    "branches": ["master"]
+    "branches": ["master"],
+    "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "angular",
+      "releaseRules": [
+        {"type": "feat", "release": "minor"},
+        {"type": "fix", "release": "patch"},
+        {"type": "docs", "release": "patch"},
+        {"type": "style", "release": "patch"},
+        {"type": "refactor", "release": "patch"},
+        {"type": "perf", "release": "patch"},
+        {"breaking": true, "release": "major"},
+        {"type": "feat", "scope": "react18", "release": "minor"},
+        {"type": "feat!", "release": "major"}
+      ],
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+      }
+    }],
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/github"
+  ]
   },
   "keywords": [
     "react",
