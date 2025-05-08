@@ -1,7 +1,8 @@
 {
-  "name": "@table-library/react-table-library",
+  "name": "@appkitreact/react-table-library",
   "version": "0.0.0-development",
-  "description": "react-table-library",
+  "description": "fork of react-table-library to support react 18",
+  "private": false,
   "type": "module",
   "main": "main.js",
   "types": "index.d.ts",
@@ -143,19 +144,7 @@
   },
   "release": {
     "repositoryUrl": "https://github.com/lokeshjain2008/react-table-library.git",
-    "branches": ["master"],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      [
-        "@semantic-release/github",
-        {
-          "successComment": false,
-          "failComment": false
-        }
-      ]
-    ]
+    "branches": ["master"]
   },
   "keywords": [
     "react",
